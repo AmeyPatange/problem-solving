@@ -13,10 +13,10 @@ public class LargestElement {
 	/**
 	 * Logic:
 	 * 
-	 * Assume first element as maximum in array.
-	 * Traverse through the array from index 1..n-1 and compare it with max
-	 * 		1) If element is greater than max, it is considered as new max
-	 * 		2) Ignore
+	 * 1) Assume first element as maximum in array.
+	 * 2) Traverse through the array from index 1..n-1 and compare it with max
+	 * 		a) If element is greater than max, it is considered as new max
+	 * 		b) Ignore
 	 * 
 	 * T.C --> O(n)
 	 * A.S.C --> O(1)
